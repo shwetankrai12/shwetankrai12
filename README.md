@@ -9,6 +9,10 @@
 
 ---
 
+<details open>
+<summary><b>👨‍💻 Who am I?</b></summary>
+<br>
+
 ```python
 class Shwetank:
     def __init__(self):
@@ -24,6 +28,10 @@ class Shwetank:
 me = Shwetank()
 me.say_hello()
 ```
+
+</details>
+
+---
 
 ## ⚡ Tech Stack
 
