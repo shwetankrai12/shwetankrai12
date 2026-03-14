@@ -40,7 +40,7 @@ me.say_hello()
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" title="Git"/>
   &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="42" title="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="42" title="GitHub"/>
 </p>
 
 ---
@@ -91,11 +91,11 @@ me.say_hello()
 ## 📫 Reach Me
 
 <p align="left">
-  <a href="mailto:shwetankrai12102004@gmail.com>
+  <a href="mailto:shwetankrai12102004@gmail.com">
     <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=00ffb2" />
   </a>
   &nbsp;
-  <a href="www.linkedin.com/in/shwetank-rai-8007a5279">
+  <a href="https://www.linkedin.com/in/shwetank-rai-8007a5279">
     <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ffb2" />
   </a>
   &nbsp;
