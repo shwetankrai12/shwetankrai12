@@ -25,8 +25,6 @@ me = Shwetank()
 me.say_hello()
 ```
 
----
-
 ## ⚡ Tech Stack
 
 <p align="left">
