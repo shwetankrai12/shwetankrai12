@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00FFB2&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Shwetank+%F0%9F%91%8B;C%2B%2B+%7C+Python+%7C+Quant+Finance;Building+QuantKernel+%E2%80%94+an+HFT+system+from+scratch;Code+%E2%80%A2+Learn+%E2%80%A2+Iterate+%E2%80%A2+Repeat)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=00FFB2&center=true&vCenter=true&width=900&lines=Shwetank+Rai;C%2B%2B+%7C+Python+%7C+Quant+Finance;Building+QuantKernel+%E2%80%94+HFT+system+from+scratch;Campus+%E2%86%92+Fintech+%E2%86%92+Quant%2FHFT)
 
 <img src="https://komarev.com/ghpvc/?username=shwetankrai12&color=00ffb2&style=flat-square&label=PROFILE+VIEWS" />
 
@@ -12,42 +12,77 @@
 ```cpp
 class Shwetank {
 public:
+    // identity
     std::string location  = "West Bengal, India";
     std::string degree    = "B.Tech CSE — 3rd Semester";
-    std::string vision    = "QuantKernel — full HFT system: backtester + low-latency engine";
+    int         age       = 22;
 
-    std::vector<std::string> building = {
-        "FINANCIAL_ENV  — AI financial analysis env (FastAPI + Groq + Llama)",
-        "GEONEX_AI      — geospatial AI project",
-        "DalalScope     — NSE stock market dashboard (live @ Render)",
-        "Nevelto        — hyper-local micro-agency, WhatsApp bots for SMBs"
+    // the mission
+    std::string endgame   = "QuantKernel — full HFT system by age 24";
+    std::string path      = "Campus → Fintech → Quant/HFT";
+
+    // currently building
+    std::vector<std::string> active = {
+        "QuantKernel   — C++ backtester + low-latency engine",
+        "Nevelto       — WhatsApp AI bots for local SMBs (Hooghly)",
+        "DalalScope    — NSE stock dashboard (live @ Render)",
+        "GEONEX_AI     — geospatial disaster response AI"
     };
 
+    // currently studying
     std::vector<std::string> learning = {
-        "C++ (DSA, STL, concurrency)",
-        "ML Math (Linear Algebra → Calculus → Probability)",
-        "Low-latency systems & market microstructure"
+        "C++ DSA + STL + concurrency (Love Babbar track)",
+        "ML Math: Linear Algebra → Calculus → Probability",
+        "Market microstructure + order book dynamics"
     };
 
-    std::string chai = "∞";   // non-negotiable ☕
+    bool chai() { return true; }  // non-negotiable
 };
 ```
 
 ---
 
-## 🔨 Active Projects
+## ⚡ QuantKernel — Primary Objective
 
-| Project | Stack | Status |
-|---|---|---|
-| [FINANCIAL_ENV](https://github.com/shwetankrai12/FINANCIAL_ENV) | FastAPI · Groq · Llama · Pydantic | 🔄 Active |
-| [GEONEX_AI](https://github.com/shwetankrai12/GEONEX_AI) | Python · Jupyter | 🔄 Active |
-| [DalalScope](https://github.com/shwetankrai12/DalalScope) | FastAPI · Supabase · yfinance · Vanilla JS | ✅ Deployed |
-| [Nevelto](https://github.com/shwetankrai12/nevelto) | Node.js · Baileys · Firebase · Render | 🔄 Active |
-| QuantKernel *(private)* | C++ · Low-latency infra | 🏗️ Building |
+> **C++ backtesting engine → low-latency infra → order matching → live execution**
+>
+> HFT prototype target: **June 2026** · Full system target: **age 24**
 
 ---
 
-## ⚡ Tech Stack
+## 🔨 Active Projects
+
+| Project | What it is | Stack | Status |
+|---|---|---|---|
+| **QuantKernel** *(private)* | Full HFT system — backtester + execution engine | C++ · STL · Low-latency | 🏗️ Building |
+| [DalalScope](https://github.com/shwetankrai12/DalalScope) | NSE stock dashboard — live charts, portfolio, news sentiment | FastAPI · yfinance · Supabase · Chart.js | ✅ Deployed |
+| [Nevelto](https://github.com/shwetankrai12/nevelto) | WhatsApp AI automation + landing pages for Hooghly SMBs | Node.js · Baileys · Firebase · Groq | 🔄 Active |
+| [GEONEX_AI](https://github.com/shwetankrai12/GEONEX_AI) | Geospatial disaster response — SMS alerts, safe location map | Python · Express · MongoDB · Twilio | 🔄 Active |
+
+---
+
+## 🧭 Roadmap → QuantKernel
+
+```
+[✅] Python core — OOP, async, generators
+[✅] Git & GitHub workflow
+[✅] NumPy & Pandas
+[✅] Full-stack dashboard — DalalScope (live)
+[✅] AI financial env — FINANCIAL_ENV (OpenEnv hackathon)
+[✅] Geospatial AI — GEONEX_AI (deployed + secured)
+[🔄] C++ DSA — arrays, recursion, STL (Love Babbar track)
+[🔄] ML Math — Linear Algebra (3B1B + MML Book)
+[🔄] Nevelto — landing first paying client (Hooghly)
+[⏳] QuantKernel v0.1 — C++ backtesting engine
+[⏳] Order book simulation + tick data pipeline
+[⏳] Campus placement — fintech / product company
+[★] Full HFT prototype — June 2026
+[★] Complete low-latency execution system — age 24
+```
+
+---
+
+## ⚙️ Tech Stack
 
 <p align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++"/>
@@ -60,31 +95,18 @@ public:
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" title="Pandas"/>
 &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase"/>
-&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/>
 &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase"/>
+&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" title="PostgreSQL / Supabase"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" title="MongoDB"/>
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/>
 </p>
 
----
-
-## 🧭 Roadmap to QuantKernel
-
-```
-[✅] Python core — OOP, generators, async
-[✅] Git & GitHub workflow
-[✅] NumPy & Pandas
-[✅] Full-stack dashboard — DalalScope (live)
-[✅] AI financial env — FINANCIAL_ENV (hackathon)
-[🔄] C++ DSA (Love Babbar) — arrays, recursion, STL
-[🔄] ML Math — Linear Algebra (MML Book + 3B1B)
-[⏳] C++ backtesting engine — QuantKernel v0.1
-[⏳] Low-latency infra — order matching, tick data
-[⏳] Full HFT prototype — June 2026 target
-```
+**Also using:** Groq · Llama · LM Studio · Baileys · yfinance · Render · Vercel
 
 ---
 
@@ -98,7 +120,7 @@ public:
 
 <p align="left">
 <a href="mailto:shwetankrai12102004@gmail.com">
-<img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=00ffb2"/>
+<img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=00ffb2"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/shwetank-rai-8007a5279">
@@ -116,6 +138,8 @@ public:
 
 *"The market rewards precision. So does the compiler."*
 
-⚡ Code • Learn • Iterate • Repeat
+**Code · Learn · Iterate · Repeat**
+
+`3rd sem → placement 2026–27 → fintech → quant/HFT`
 
 </div>
