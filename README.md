@@ -140,6 +140,6 @@ public:
 
 **Code · Learn · Iterate · Repeat**
 
-`3rd sem → placement 2026–27 → fintech → quant/HFT`
+`3rd Year → placement 2026–27 → fintech → quant/HFT`
 
 </div>
