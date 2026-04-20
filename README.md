@@ -14,7 +14,7 @@ class Shwetank {
 public:
     // identity
     std::string location  = "West Bengal, India";
-    std::string degree    = "B.Tech CSE — 3rd Semester";
+    std::string degree    = "B.Tech CSE — 3rd Year";
     int         age       = 22;
 
     // the mission
