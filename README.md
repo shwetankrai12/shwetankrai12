@@ -1,145 +1,138 @@
-<!-- Header -->
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=00FFB2&center=true&vCenter=true&width=900&lines=Shwetank+Rai;C%2B%2B+%7C+Python+%7C+Quant+Finance;Building+QuantKernel+%E2%80%94+HFT+system+from+scratch;Campus+%E2%86%92+Fintech+%E2%86%92+Quant%2FHFT)
+<img src="assets/banner.svg" alt="Shwetank | C++ | Quant Finance | AI" width="100%"/>
 
-<img src="https://komarev.com/ghpvc/?username=shwetankrai12&color=00ffb2&style=flat-square&label=PROFILE+VIEWS" />
+<img src="assets/ticker.svg" alt="Skills and interests" width="100%"/>
+
+<br/>
+
+![FOCUS](https://img.shields.io/badge/FOCUS-QUANT%20%2B%20SYSTEMS-00f0ff?style=for-the-badge&labelColor=0a0e14)
+![CORE](https://img.shields.io/badge/CORE-C%2B%2B%20%7C%20PYTHON-7c5cff?style=for-the-badge&labelColor=0a0e14)
+![STATUS](https://img.shields.io/badge/STATUS-BUILDING-ffb000?style=for-the-badge&labelColor=0a0e14)
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## `whoami`
+
+I'm a **B.Tech CSE student and builder from India** focused on the intersection of **C++, quantitative finance, machine learning, and real-world products**.
+
+I like projects where the interesting part is underneath the UI: **data pipelines, algorithms, systems, backtesting, performance, and automation**.
 
 ```cpp
-class Shwetank {
-public:
-    // identity
-    std::string location  = "West Bengal, India";
-    std::string degree    = "B.Tech CSE — 3rd Year";
-    int         age       = 22;
+struct Shwetank {
+    const char* role  = "student · builder · engineer in progress";
+    const char* focus = "C++ · quant systems · ML";
+    const char* build = "QuantKernel";
 
-    // the mission
-    std::string endgame   = "QuantKernel — full HFT system by age 24";
-    std::string path      = "Campus → Fintech → Quant/HFT";
-
-    // currently building
-    std::vector<std::string> active = {
-        "QuantKernel   — C++ backtester + low-latency engine",
-        "Nevelto       — WhatsApp AI bots for local SMBs (Hooghly)",
-        "DalalScope    — NSE stock dashboard (live @ Render)",
-        "GEONEX_AI     — geospatial disaster response AI"
-    };
-
-    // currently studying
-    std::vector<std::string> learning = {
-        "C++ DSA + STL + concurrency (Love Babbar track)",
-        "ML Math: Linear Algebra → Calculus → Probability",
-        "Market microstructure + order book dynamics"
-    };
-
-    bool chai() { return true; }  // non-negotiable
+    bool ship() const { return true; }
 };
 ```
 
----
+> **Current direction:** become strong enough in C++ and quantitative systems to build and evaluate trading infrastructure—not just call trading APIs.
 
-## ⚡ QuantKernel — Primary Objective
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-> **C++ backtesting engine → low-latency infra → order matching → live execution**
->
-> HFT prototype target: **June 2026** · Full system target: **age 24**
+## `current_project` → QuantKernel
 
----
+**QuantKernel** is my long-term systems project: a C++ research and backtesting stack for Indian markets, with the eventual goal of exploring execution and low-latency architecture.
 
-## 🔨 Active Projects
+### Roadmap
 
-| Project | What it is | Stack | Status |
-|---|---|---|---|
-| **QuantKernel** *(private)* | Full HFT system — backtester + execution engine | C++ · STL · Low-latency | 🏗️ Building |
-| [DalalScope](https://github.com/shwetankrai12/DalalScope) | NSE stock dashboard — live charts, portfolio, news sentiment | FastAPI · yfinance · Supabase · Chart.js | ✅ Deployed |
-| [Nevelto](https://github.com/shwetankrai12/nevelto) | WhatsApp AI automation + landing pages for Hooghly SMBs | Node.js · Baileys · Firebase · Groq | 🔄 Active |
-| [GEONEX_AI](https://github.com/shwetankrai12/GEONEX_AI) | Geospatial disaster response — SMS alerts, safe location map | Python · Express · MongoDB · Twilio | 🔄 Active |
+```text
+FOUNDATION
+├── C++ STL / DSA                         [████████░░]
+├── Concurrency & systems programming     [██████░░░░]
+├── Probability / statistics / calculus   [██████░░░░]
+└── Market microstructure                 [████░░░░░░]
 
----
-
-## 🧭 Roadmap → QuantKernel
-
-```
-[✅] Python core — OOP, async, generators
-[✅] Git & GitHub workflow
-[✅] NumPy & Pandas
-[✅] Full-stack dashboard — DalalScope (live)
-[✅] AI financial env — FINANCIAL_ENV (OpenEnv hackathon)
-[✅] Geospatial AI — GEONEX_AI (deployed + secured)
-[🔄] C++ DSA — arrays, recursion, STL (Love Babbar track)
-[🔄] ML Math — Linear Algebra (3B1B + MML Book)
-[🔄] Nevelto — landing first paying client (Hooghly)
-[⏳] QuantKernel v0.1 — C++ backtesting engine
-[⏳] Order book simulation + tick data pipeline
-[⏳] Campus placement — fintech / product company
-[★] Full HFT prototype — June 2026
-[★] Complete low-latency execution system — age 24
+QUANTKERNEL
+├── Historical market-data pipeline       [██████░░░░]
+├── Event-driven backtester               [████░░░░░░]
+├── Order-book simulation                 [██░░░░░░░░]
+├── Strategy research & evaluation        [██░░░░░░░░]
+└── Execution / low-latency experiments   [░░░░░░░░░░]
 ```
 
----
+The goal is **measurable engineering**, not a flashy “HFT” label: reproducible tests, realistic assumptions, clear benchmarks, and documented trade-offs.
 
-## ⚙️ Tech Stack
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" title="FastAPI"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" title="NumPy"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" title="Pandas"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" title="PostgreSQL / Supabase"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" title="MongoDB"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/>
-</p>
+## `selected_work`
 
-**Also using:** Groq · Llama · LM Studio · Baileys · yfinance · Render · Vercel
+| Project | What I'm building | Stack | Status |
+|:--|:--|:--|:--|
+| **QuantKernel** | C++ research/backtesting & future execution infrastructure | C++ · STL · systems | 🟡 Building |
+| **DalalScope** | Indian-market dashboard with charts, portfolio tooling and news/sentiment data | Python · FastAPI · Supabase | 🟢 Built |
+| **Nevelto** | Automation and web products for small businesses | Node.js · Firebase · AI APIs | 🟢 Active |
+| **GeoSev AI** | Geospatial disaster-response prototype | Python · Express · MongoDB | 🟢 Built |
 
----
+> I keep older projects here because they show the path: **shipping products → learning systems → going deeper into engineering.**
 
-## 📊 Contribution Graph
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shwetankrai12&theme=github-dark&bg_color=0d1117&color=00ffb2&line=00ffb2&point=ffffff)
+## `stack`
 
----
+### Core
 
-## 📫 Reach Me
+<img src="https://skillicons.dev/icons?i=cpp,py,git,github,linux&theme=dark" alt="C++, Python, Git, GitHub, Linux"/>
 
-<p align="left">
-<a href="mailto:shwetankrai12102004@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=00ffb2"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/shwetank-rai-8007a5279">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ffb2"/>
-</a>
-&nbsp;
-<a href="https://github.com/shwetankrai12">
-<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00ffb2"/>
-</a>
-</p>
+### Systems / Data
 
----
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,fastapi,supabase&theme=dark" alt="PostgreSQL, MongoDB, FastAPI, Supabase"/>
+
+### Also explored
+
+`JavaScript` · `Node.js` · `React` · `TypeScript` · `yfinance` · `LLMs` · `automation`
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## `learning_log`
+
+```text
+01  C++ / STL / DSA
+02  Concurrency & operating-system fundamentals
+03  Probability, statistics & linear algebra
+04  Market microstructure & quantitative research
+05  ML for financial data — with realistic validation
+06  Performance engineering & low-latency design
+```
+
+I care about understanding **why a system works**, not collecting frameworks.
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## `github_telemetry`
 
 <div align="center">
 
-*"The market rewards precision. So does the compiler."*
+<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&bg_color=0a0e14&title_color=00f0ff&icon_color=ffb000&text_color=c9d1d9&ring_color=00f0ff"/>
+<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&bg_color=0a0e14&title_color=00f0ff&text_color=c9d1d9"/>
 
-**Code · Learn · Iterate · Repeat**
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=USERNAME&background=0a0e14&ring=00f0ff&fire=ffb000&currStreakLabel=00f0ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8b949e&dates=6e7681&hide_border=true"/>
 
-`4th Year → placement 2026–27 → fintech → quant/HFT`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake-dark.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake.svg" width="100%"/>
+</picture>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## `connect`
+
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/EMAIL-00f0ff?style=for-the-badge&logo=gmail&logoColor=0a0e14&labelColor=0a0e14" alt="Email"/></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-7c5cff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e14" alt="LinkedIn"/></a>
+<a href="https://instagram.com/shwetdaily"><img src="https://img.shields.io/badge/INSTAGRAM-ffb000?style=for-the-badge&logo=instagram&logoColor=0a0e14&labelColor=0a0e14" alt="Instagram"/></a>
+
+<br/>
+
+<div align="center">
+
+**Build it. Measure it. Understand it.**
+
+<sub>Currently going deeper into C++, quantitative systems, and the engineering behind them.</sub>
 
 </div>
